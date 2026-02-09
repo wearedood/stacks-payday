@@ -10,3 +10,8 @@
 (define-read-only (get-balance (user principal))
   (ok (ft-get-balance dd-token user))
 )
+
+;; Function to burn (destroy) tokens
+(define-public (burn (amount uint))
+  (ft-burn? dd-token amount tx-sender)
+)
