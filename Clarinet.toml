@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/counter.clar'
 clarity_version = 4
 epoch = 'latest'
+
+[contracts.ddtrvlr-token]
+path = 'contracts/ddtrvlr-token.clar'
+clarity_version = 4
+epoch = 'latest'
 [repl.analysis]
 passes = [
     'check_checker',
