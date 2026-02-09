@@ -15,6 +15,11 @@ path = 'contracts/ddtrvlr-multisig.clar'
 clarity_version = 4
 epoch = 'latest'
 
+[contracts.ddtrvlr-nft]
+path = 'contracts/ddtrvlr-nft.clar'
+clarity_version = 4
+epoch = 'latest'
+
 [contracts.ddtrvlr-token]
 path = 'contracts/ddtrvlr-token.clar'
 clarity_version = 4
@@ -31,8 +36,8 @@ clarity_version = 4
 epoch = 'latest'
 [repl.analysis]
 passes = [
-    'check_checker',
     'call_checker',
+    'check_checker',
 ]
 
 [repl.analysis.lint_groups]
