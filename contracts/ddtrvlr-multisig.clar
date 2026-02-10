@@ -1,5 +1,4 @@
 ;; ddtrvlr-multisig: 2-of-2 Wallet
-(define-data-var owner-1 principal tx-sender)
 (define-data-var balance uint u0)
 
 ;; Deposit funds
