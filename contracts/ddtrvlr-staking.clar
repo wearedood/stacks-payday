@@ -5,8 +5,8 @@
 ;; Stake tokens (Lock them up)
 (define-public (stake-tokens (amount uint))
   (begin
-    ;; 1. Transfer tokens to this contract
-    (try! (contract-call? .ddtrvlr-token transfer amount tx-sender (as-contract tx-sender) none))
+    ;; 1. Transfer tokens to this contract (Explicitly named to fix error)
+    (try! (contract-call? .ddtrvlr-token transfer amount tx-sender .ddtrvlr-staking none))
     ;; 2. Record the stake
     (ok (map-set stakes tx-sender amount))
   )

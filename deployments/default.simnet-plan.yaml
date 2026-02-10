@@ -89,6 +89,11 @@ plan:
             path: contracts/ddtrvlr-multisig.clar
             clarity-version: 4
         - emulated-contract-publish:
+            contract-name: ddtrvlr-staking
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/ddtrvlr-staking.clar
+            clarity-version: 4
+        - emulated-contract-publish:
             contract-name: ddtrvlr-vault
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/ddtrvlr-vault.clar
