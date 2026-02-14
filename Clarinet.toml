@@ -5,42 +5,42 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.counter]
+[contracts.counter-v3]
 path = 'contracts/counter.clar'
 clarity_version = 4
 epoch = 'latest'
 
-[contracts.ddtrvlr-market]
+[contracts.ddtrvlr-market-v3]
 path = 'contracts/ddtrvlr-market.clar'
 clarity_version = 4
 epoch = 'latest'
 
-[contracts.ddtrvlr-multisig]
+[contracts.ddtrvlr-multisig-v3]
 path = 'contracts/ddtrvlr-multisig.clar'
 clarity_version = 4
 epoch = 'latest'
 
-[contracts.ddtrvlr-nft]
+[contracts.ddtrvlr-nft-v3]
 path = 'contracts/ddtrvlr-nft.clar'
 clarity_version = 4
 epoch = 'latest'
 
-[contracts.ddtrvlr-staking]
+[contracts.ddtrvlr-staking-v3]
 path = 'contracts/ddtrvlr-staking.clar'
 clarity_version = 4
 epoch = 'latest'
 
-[contracts.ddtrvlr-token]
+[contracts.ddtrvlr-token-v3]
 path = 'contracts/ddtrvlr-token.clar'
 clarity_version = 4
 epoch = 'latest'
 
-[contracts.ddtrvlr-vault]
+[contracts.ddtrvlr-vault-v3]
 path = 'contracts/ddtrvlr-vault.clar'
 clarity_version = 4
 epoch = 'latest'
 
-[contracts.ddtrvlr-voting]
+[contracts.ddtrvlr-voting-v3]
 path = 'contracts/ddtrvlr-voting.clar'
 clarity_version = 4
 epoch = 'latest'

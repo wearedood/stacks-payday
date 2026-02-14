@@ -1,0 +1,67 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: counter-v3
+            expected-sender: ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY
+            cost: 5750
+            path: contracts/counter.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-market-v3
+            expected-sender: ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY
+            cost: 5240
+            path: contracts/ddtrvlr-market.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-multisig-v3
+            expected-sender: ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY
+            cost: 3200
+            path: contracts/ddtrvlr-multisig.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-nft-v3
+            expected-sender: ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY
+            cost: 2840
+            path: contracts/ddtrvlr-nft.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-staking-v3
+            expected-sender: ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY
+            cost: 5650
+            path: contracts/ddtrvlr-staking.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-token-v3
+            expected-sender: ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY
+            cost: 6500
+            path: contracts/ddtrvlr-token.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-vault-v3
+            expected-sender: ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY
+            cost: 3660
+            path: contracts/ddtrvlr-vault.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-voting-v3
+            expected-sender: ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY
+            cost: 6490
+            path: contracts/ddtrvlr-voting.clar
+            anchor-block-only: true
+            clarity-version: 4
+      epoch: "3.3"
