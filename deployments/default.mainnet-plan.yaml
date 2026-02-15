@@ -1,0 +1,67 @@
+---
+id: 0
+name: Mainnet deployment
+network: mainnet
+stacks-node: "https://api.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: counter-v3
+            expected-sender: SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH
+            cost: 5750
+            path: contracts/counter.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-market-v3
+            expected-sender: SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH
+            cost: 5240
+            path: contracts/ddtrvlr-market.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-multisig-v3
+            expected-sender: SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH
+            cost: 3200
+            path: contracts/ddtrvlr-multisig.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-nft-v3
+            expected-sender: SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH
+            cost: 2840
+            path: contracts/ddtrvlr-nft.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-staking-v3
+            expected-sender: SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH
+            cost: 5650
+            path: contracts/ddtrvlr-staking.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-token-v3
+            expected-sender: SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH
+            cost: 6500
+            path: contracts/ddtrvlr-token.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-vault-v3
+            expected-sender: SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH
+            cost: 3660
+            path: contracts/ddtrvlr-vault.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: ddtrvlr-voting-v3
+            expected-sender: SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH
+            cost: 6490
+            path: contracts/ddtrvlr-voting.clar
+            anchor-block-only: true
+            clarity-version: 4
+      epoch: "3.3"
