@@ -1,34 +1,30 @@
-# 💰 Stacks Payday
+# 🏦 Stacks Payday: DeFi & Governance on Bitcoin L2
 
-**A Decentralized Marketplace & NFT System on Stacks (Bitcoin L2).**
+**Live on Mainnet:** [SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH](https://explorer.hiro.so/txid/SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-nft-v3?chain=mainnet)
 
-This project implements a full-suite DeFi ecosystem including:
-- **NFT Minting & Trading** (`ddtrvlr-nft-v3`)
-- **Staking Vaults** (`ddtrvlr-staking-v3`)
-- **DAO Voting Mechanisms** (`ddtrvlr-voting-v3`)
+## 🚀 Overview
+Stacks Payday is a decentralized finance (DeFi) and governance protocol built on Stacks (Bitcoin L2). It enables secure NFT minting and on-chain voting, leveraging Bitcoin's security for settlement.
 
-## 🚀 Deployments
+## ✨ Features
+* **Bitcoin-Secured NFTs:** Mint unique digital assets directly on Stacks.
+* **On-Chain Governance:** Decentralized voting mechanism (`ddtrvlr-voting-v3`) allowing community consensus.
+* **Mainnet Ready:** Fully deployed and tested on the Stacks Mainnet.
 
-### Mainnet (Live)
-| Contract | Address |
-|----------|---------|
-| **NFT** | `SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-nft-v3` |
-| **Market** | `SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-market-v3` |
-| **Voting** | `SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-voting-v3` |
-
-### Testnet
-- **NFT:** `ST1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8Z428FDY.ddtrvlr-nft-v3`
+## 🔗 Contract Deployments (Mainnet)
+| Contract | Address | Status |
+| :--- | :--- | :--- |
+| **NFT Minting** | `SP1GV...GBMH.ddtrvlr-nft-v3` | ✅ Live |
+| **Voting/DAO** | `SP1GV...GBMH.ddtrvlr-voting-v3` | ✅ Live |
 
 ## 🛠 Tech Stack
-- **Language:** Clarity (Smart Contracts)
-- **Testing:** Clarinet SDK + Vitest
-- **Libraries:** `@stacks/transactions`, `@stacks/connect`
+* **Language:** Clarity (Smart Contracts)
+* **Network:** Stacks Mainnet (Bitcoin L2)
+* **Tools:** Clarinet, Stacks.js
 
-## ⚡ Quick Start
+## ⚡️ Quick Start (Interaction)
+You can interact with the protocol via the [Stacks Explorer Sandbox](https://explorer.hiro.so/sandbox/contract-call):
+1.  **Mint:** Call `mint` on the NFT contract.
+2.  **Vote:** Call `vote` (id: 1) on the Voting contract.
 
-```bash
-# Install dependencies
-npm install
-
-# Run tests
-npm test
+---
+*Built for the Bitcoin Olympics Hackathon 2026.* 🧡
