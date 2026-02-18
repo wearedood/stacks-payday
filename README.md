@@ -1,30 +1,26 @@
-# 🏦 Stacks Payday: DeFi & Governance on Bitcoin L2
+# 🏦 Stacks Payday Protocol: DeFi Ecosystem on Bitcoin L2
 
-**Live on Mainnet:** [SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH](https://explorer.hiro.so/txid/SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-nft-v3?chain=mainnet)
+**Live on Mainnet.** Fully deployed decentralized protocol including NFTs, Governance, Native Currency, and Liquidity Pools.
 
-## 🚀 Overview
-Stacks Payday is a decentralized finance (DeFi) and governance protocol built on Stacks (Bitcoin L2). It enables secure NFT minting and on-chain voting, leveraging Bitcoin's security for settlement.
-
-## ✨ Features
-* **Bitcoin-Secured NFTs:** Mint unique digital assets directly on Stacks.
-* **On-Chain Governance:** Decentralized voting mechanism (`ddtrvlr-voting-v3`) allowing community consensus.
-* **Mainnet Ready:** Fully deployed and tested on the Stacks Mainnet.
-
-## 🔗 Contract Deployments (Mainnet)
-| Contract | Address | Status |
+## 🔗 Mainnet Contract Deployments (Verified)
+| Component | Contract Name | Status |
 | :--- | :--- | :--- |
-| **NFT Minting** | `SP1GV...GBMH.ddtrvlr-nft-v3` | ✅ Live |
-| **Voting/DAO** | `SP1GV...GBMH.ddtrvlr-voting-v3` | ✅ Live |
+| **🎨 NFT Assets** | `SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-nft-v3` | ✅ Live |
+| **🗳 DAO Voting** | `SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-voting-v3` | ✅ Live |
+| **🪙 Payday Token** | `SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-coin-v1` | ✅ Live |
+| **💧 DeFi Pool** | `SP1GVG84HRYCBYEW59M0S4XGQF8TTVXRF8XNXGBMH.ddtrvlr-pool-v1` | ✅ Live |
 
-## 🛠 Tech Stack
-* **Language:** Clarity (Smart Contracts)
-* **Network:** Stacks Mainnet (Bitcoin L2)
-* **Tools:** Clarinet, Stacks.js
+## 🚀 Features
+* **Asset Issuance:** SIP-009 Standard NFTs secured by Bitcoin.
+* **Decentralized Voice:** On-chain voting mechanism for protocol upgrades.
+* **Native Economy:** `PAYDAY` fungible token with burn mechanics.
+* **Automated Market Maker (AMM):** Trustless liquidity provision and token swaps.
 
-## ⚡️ Quick Start (Interaction)
-You can interact with the protocol via the [Stacks Explorer Sandbox](https://explorer.hiro.so/sandbox/contract-call):
-1.  **Mint:** Call `mint` on the NFT contract.
-2.  **Vote:** Call `vote` (id: 1) on the Voting contract.
+## 🛠 Interaction Guide
+Interact with the protocol via the [Hiro Explorer Sandbox](https://explorer.hiro.so/sandbox/contract-call?chain=mainnet).
+1.  **Mint:** Call `mint` on `ddtrvlr-nft-v3`.
+2.  **Trade:** Call `swap-x-for-y` on `ddtrvlr-pool-v1`.
+3.  **Vote:** Call `vote` on `ddtrvlr-voting-v3`.
 
 ---
 *Built for the Bitcoin Olympics Hackathon 2026.* 🧡
